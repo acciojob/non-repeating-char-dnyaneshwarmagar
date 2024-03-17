@@ -9,7 +9,7 @@ function firstNonRepeatedChar(str) {
 
     // Find the first non-repeated character
     for (let char of s) {
-        if (charFreq[char] === 1) {
+        if (charFreq[char] === 2) {
             return char;
         }
     }
